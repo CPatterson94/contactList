@@ -1,12 +1,14 @@
+import React from "react";
 import { useState } from "react";
+import ContactList from "./components/ContactList";
 import "./index.css";
 
 function App() {
-  const [,] = useState(0);
-
   return (
     <>
-      <div className="wrapper"></div>
+      <div className="wrapper">
+        <ContactList />
+      </div>
     </>
   );
 }
