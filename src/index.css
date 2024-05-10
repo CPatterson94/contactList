@@ -30,6 +30,23 @@ body {
   min-height: 100vh;
 }
 
+table {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 20px;
+}
+table tr:hover {
+  text-decoration: underline;
+  background-color: #242424;
+}
+.but {
+  color: white;
+  border-radius: 5px;
+}
+.but:hover {
+  text-decoration: underline;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
